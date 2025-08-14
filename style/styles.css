@@ -30,3 +30,103 @@ nav li a{
 nav ul{
     display: flex;
 }
+/* banner part */
+
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 10px;
+    max-width: 570px;
+}
+
+.inter-small {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    width: 570px;
+}
+.text-color{
+    color: #E95A08;
+}
+.banner-pic{
+    width: 570px;
+
+}
+.banner{
+    display: flex;
+    max-width: 1140px;
+    justify-content: space-between;
+    margin: 120px 150px 0 150px;
+    align-items: center;
+    
+}
+.banner-content{
+    max-width: 650px;
+
+}
+@media screen and (max-width:576px){
+    .banner{
+flex-direction: column-reverse;
+margin: 20px;
+    }
+    .banner-description{
+        width: 500px;
+    }
+    .banner-pic{
+        width: 100%;
+    }
+    /* nav */
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 15px;
+  }
+
+  /* Keep the list tidy */
+  nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Hide EVERYTHING except the last <li> (Cart) */
+  nav ul li:not(:last-child) {
+    display: none;
+  }
+
+  /* Optional: remove leftover spacing on the single visible <li> */
+  /* nav ul li { */
+    /* margin: 0; */
+    /* list-style: none; */
+  /* } */
+
+  .logo { max-width: 100px;
+     height: auto;
+     }
+  .cart { display: flex;
+     align-items: center;
+      gap: 6px;
+       font-weight: 600;
+        font-size: 16px;
+     }
+
+}
+    
+
+    
