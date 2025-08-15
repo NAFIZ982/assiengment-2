@@ -131,6 +131,39 @@ main{
     grid-template-columns: repeat(4,1fr);
     
 }
+/* plant lover part */
+.img-1{
+    width: 260px;
+}
+.challenge{
+    display: flex;
+    gap: 60px;
+}
+.img-2{
+    width: 500px;
+}
+.title-love{
+    font-size: 50px;
+    font-weight: bold;
+}
+.lov{
+    width: 520px;
+    display: grid;
+    grid-template-columns: repeat(1);
+}
+.des{
+    font-size: 20px;
+    font-weight: 400;
+}
+.plant-lover{
+    align-items: center;
+}
+.relative{
+    position: relative;
+    top: 130px;
+left: 350px;
+
+}
 
 @media screen and (max-width:576px){
     .banner{
@@ -189,6 +222,17 @@ margin: 20px;
      .plant{
         max-width: 400px;
      }
+     .cart-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.flower{
+    width: 280px;
+    gap: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
      
      
 
