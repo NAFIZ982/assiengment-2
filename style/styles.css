@@ -69,15 +69,69 @@ nav ul{
 .banner{
     display: flex;
     max-width: 1140px;
-    justify-content: space-between;
+    justify-content:space-between;
     margin: 120px 150px 0 150px;
     align-items: center;
+    width: 100%;
+
     
 }
 .banner-content{
     max-width: 650px;
 
 }
+/* plant part */
+.plant-title{
+    color: #000000;
+    font-weight: bold;
+    font-size: 50px;
+    width: 850px;
+}
+.plant-description{
+     font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    width: 850px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.plant{
+    text-align: center;
+
+}
+/* cart part */
+.cart-btn{
+    width: 270px;
+    height: 50px;
+    padding: 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #E95A08;
+    border: none;
+}
+.tit{
+    font-weight: 500;
+    font-size: 20px;
+}
+.tit-2{
+    font-weight: bold;
+    font-size: 20;
+    
+}
+.flower{
+    width: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cart-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+
 @media screen and (max-width:576px){
     .banner{
 flex-direction: column-reverse;
@@ -125,6 +179,18 @@ margin: 20px;
        font-weight: 600;
         font-size: 16px;
      }
+     /* plant */
+     .plant-title{
+        width: 100%;
+     }
+     .plant-description{
+        width: 100%;
+     }
+     .plant{
+        max-width: 400px;
+     }
+     
+     
 
 }
     
