@@ -163,7 +163,65 @@ main{
     top: 130px;
 left: 350px;
 
+
 }
+/* deal part */
+.deal-tit{
+    font-weight: bold;
+    font-size: 50px;
+}
+.deal-des{
+    font-weight: 400;
+    font-size: 20px;
+    width: 100%;
+}
+.deals{
+    text-align: center;
+}
+/* text in the image part */
+.pic-flo{
+    display: flex;
+}
+.small-pic{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.big-pic{
+    border-radius: 15px;
+}
+/* login interface */
+.img-cls{
+    background-image: url('/assets/news-letter-bg.png');
+    max-width: 1440px;
+    max-height: 550px;
+    align-items: center;
+}
+.login-div{
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+.login-tit{
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+.place{
+    width: 650px;
+    height: 50px;
+}
+.login-btn{
+     width: 270px;
+    height: 50px;
+    padding: 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #E95A08;
+    border: none;
+}
+
+
 
 @media screen and (max-width:576px){
     .banner{
@@ -240,7 +298,39 @@ margin: 20px;
 .challenge{
     flex-direction: column;
 }
-     
+/* deal part */
+.deal-tit{
+    width: 500px;
+}
+.deal-des{
+    width: 450px;
+    margin-left: 40px;
+}
+.pic-flo{
+    flex-direction: column;
+}
+.row{
+    width: 360px;
+    margin-left: 35px;
+}
+.single{
+    width: 360px;
+    height: 200px;
+    margin-left: 30px;
+}
+.big-pic{
+    width: 360px;
+}
+.img-cls{
+    width: 400px;
+}
+.login-btn{
+    width: 150px;
+    height: 100px;
+}
+.place{
+    width: 200px;
+}
      
 
 }
